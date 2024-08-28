@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Josefin';
+    /* Name your font family */
+    src: url('connect4/fonts/Josefin_Sans/static/JosefinSans-VariableFont_wght.ttf');
+    /* Locate the .ttf file within your directory*/
+
+    font-family: 'Titan';
+    src: url('connect4/fonts/Titan_One/TitanOne-Regular.ttf');
+}
+
+
+body {
+    text-align: center;
+    padding: 15px;
+    background-color: #F7F1EA;
+    background-image: repeating-radial-gradient(
+        circle at 0 0,
+        transparent 0,
+        #fefefe 24px
+      ),
+      repeating-linear-gradient(#5394fd55, #5394fd);
+}
+
+#play {
+    background-color: #FABB5A;
+    height: 35px;
+    width: 100px;
+    border-color: #201E45;
+    font-size: medium;
+    font-family: 'Josefin';
+
+}
+
+#Game-name {
+    margin: auto;
+    margin-bottom: 5px;
+    width: 500px;
+    font-family: 'Titan';
+}
+
+h3 {
+    font-family: 'Josefin';
+
+}
+
+h3 {
+    font-family: 'Josefin';
+
+}
+
+div#c4 {
+    background-color: #201E45;
+    display: inline-block;
+    height: 445px;
+    border-radius: 7%;
+}
+
+.column {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #E4E4EF;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.column.empty {
+    cursor: pointer;
+}
+
+.next-pink {
+    background-color: #F07B7B;
+}
+
+.next-green {
+    background-color: hsla(120, 59%, 70%);
+}
+
+.column.pink {
+    background-color: #F07B7B;
+}
+
+.column.green {
+    background-color: #7bf0a2;
+}
